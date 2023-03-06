@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was created for Web and Mobile II class at RIT Croatia. The website is about the places where I have lived or visited . The website consists of various pages that provide information about things I found fastinating about the countries and photos I personally took while in the counntry. The Leaflet Map is used to display the location on the map and provide directions to it.
+This project was created for Web and Mobile II class at RIT Croatia. The website is about the places where I have lived or visited while traveling overseas. The website consists of various pages that provide information about things I found fastinating about the countries and photos I personally took while in the counntry. The Leaflet Map is used to display the location on the map and provide directions to it.
 
 ## Tech Stack
 
