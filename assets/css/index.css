@@ -1,5 +1,6 @@
 /** LINKED CSS FILES **/
-@import "../../pages/css/navbar.css";
+@import "./navbar.css";
+@import "./blog.css";
 
 /**** GLOBAL STYLING ****/
 *,
