@@ -4,12 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page</title>
+    <!-- Linked Styled Sheet -->
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <title>Blog</title>
   </head>
   <body>
-    <h1>
-      Your website should include at least 10 pages of information about this
-      place
-    </h1>
+    <!-- *** Navbar *** -->
+    <nav>
+      <a href="#" class="logo">
+        <img src="../assets/images/location-dot-solid.svg" alt="logo" />
+        <span>Travel Blog Website</span>
+      </a>
+      <input id="menu-toggle" type="checkbox" />
+      <label for="menu-toggle" class="menu-button-container">
+        <span class="menu-button"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+        <li class="active" class="excercises">
+          <a href="./blogs.html">Blogs</a>
+        </li>
+        <li class="excercises">
+          <a href="#">Sources</a>
+          <ul class="dropdown">
+            <li>
+              <a href="./document.html">Document</a>
+            </li>
+            <li>
+              <a href="./references.html">References</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- *** Main Content ** -->
+    <div class="blog-container">
+      <div class="container">
+        <h1>Austria</h1>
+      </div>
+    </div>
   </body>
 </html>

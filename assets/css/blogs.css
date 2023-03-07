@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 6rem;
 }
 .blogs-container .grid-container {
   display: grid;
@@ -11,7 +10,7 @@
   min-width: auto;
   grid-gap: 1.2em;
   margin: auto;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .blogs-container .grid-item {
@@ -34,7 +33,7 @@
   object-fit: cover;
 }
 .blogs-container .card-content {
-  padding: 3rem 3rem;
+  padding: 1.7rem 3rem;
 }
 
 .blogs-container .btn-card {

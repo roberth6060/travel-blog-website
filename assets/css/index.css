@@ -4,11 +4,7 @@
 @import "./buttons.css";
 
 :root {
-  --palette-coffee: #704e2e;
-
-  --palette-mindaro: #cde77f;
-
-  /* --palette-teagreen: #e6f8b2; */
+  --header-text-clr: #704e2e;
   --palette-main-btn: #79745c;
   --palette-active-clr: #704e2e;
   --palette-main-bg: #709176;
@@ -32,8 +28,10 @@ body {
 hr {
   width: 80%;
 }
-h1 {
+h1,
+h2 {
   text-align: center;
+  color: var(--header-text-clr);
 }
 
 li {
@@ -43,13 +41,23 @@ li {
 a {
   text-decoration: none;
 }
+
+p {
+  line-height: 1.8em;
+}
 .main-container {
   text-align: center;
 }
 .container {
   text-align: center;
-  width: 100vw;
+  margin: auto;
+  width: 90vw;
   height: 100vh;
+}
+.container .content {
+  width: 70%;
+  margin: auto;
+  text-align: left;
 }
 
 #location-section {
