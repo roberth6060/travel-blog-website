@@ -1,0 +1,16 @@
+.blog-container .title-img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.blog-container p {
+  margin-bottom: 2rem;
+}
+
+.blog-container svg {
+  width: 1em;
+}
+
+.blog-container span {
+  margin-right: 2em;
+}
