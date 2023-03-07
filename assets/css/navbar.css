@@ -1,11 +1,12 @@
 /**** NAVBAR ****/
+
 nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
   padding: 5px;
   font-size: 1.1em;
-  background-color: #ffaa50;
+  background-color: var(--palette-main-bg);
   color: white;
   z-index: 20;
 }
@@ -13,6 +14,7 @@ nav .logo {
   display: flex;
   align-items: center;
 }
+
 nav .logo img {
   width: 1.5em;
 }
@@ -42,11 +44,11 @@ nav .menu li a {
   color: #ffffff;
 }
 nav .menu li:hover:not(.active) {
-  background-color: #960018;
+  background-color: var(--palette-main-btn);
   transition: 0.2s;
 }
 nav .menu .active {
-  background-color: #960018;
+  background-color: var(--palette-active-clr);
 }
 nav .menu-button-container {
   position: absolute;
@@ -96,7 +98,7 @@ nav .dropdown {
   padding: 15px;
   position: absolute;
   width: 200px;
-  background-color: #ffaa50;
+  background-color: var(--palette-main-bg);
   top: 32px;
   right: 0;
   z-index: 7;

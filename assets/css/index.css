@@ -3,6 +3,17 @@
 @import "./blogs.css";
 @import "./buttons.css";
 
+:root {
+  --palette-coffee: #704e2e;
+
+  --palette-mindaro: #cde77f;
+
+  /* --palette-teagreen: #e6f8b2; */
+  --palette-main-btn: #79745c;
+  --palette-active-clr: #704e2e;
+  --palette-main-bg: #709176;
+}
+
 /**** GLOBAL STYLING ****/
 *,
 *::before,

@@ -40,9 +40,14 @@
 .blogs-container .btn-card {
   display: block;
   width: 100%;
-  background-color: #e6ecff;
+  background-color: var(--palette-main-btn);
   padding: 1.5rem;
   border: none;
+  color: #f5f5f5;
   border-radius: 0.4rem;
   font-size: 1.6rem;
+}
+
+.blogs-container .btn-card:active {
+  background-color: var(--palette-active-clr);
 }
