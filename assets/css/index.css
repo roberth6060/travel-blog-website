@@ -1,6 +1,7 @@
 /** LINKED CSS FILES **/
 @import "./navbar.css";
-@import "./blog.css";
+@import "./blogs.css";
+@import "./buttons.css";
 
 /**** GLOBAL STYLING ****/
 *,
@@ -14,7 +15,9 @@ body {
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-
+body {
+  background-color: #f7f6f6;
+}
 hr {
   width: 80%;
 }

@@ -11,13 +11,7 @@
   width: 114em;
   min-width: auto;
   grid-gap: 6em;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-}
-
-.blogs-container .card img {
-  display: block;
-  width: 100%;
-  height: 18em;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 }
 
 .blogs-container .grid-item {
@@ -31,4 +25,24 @@
 .blogs-container .grid-item :hover {
   transform: translateY(-0.5%);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.blogs-container .card img {
+  display: block;
+  width: 100%;
+  height: 18em;
+  object-fit: cover;
+}
+.blogs-container .card-content {
+  padding: 3rem 3rem;
+}
+
+.blogs-container .btn-card {
+  display: block;
+  width: 100%;
+  background-color: #e6ecff;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
 }
