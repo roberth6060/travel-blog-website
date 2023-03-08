@@ -29,6 +29,8 @@ nav .logo span {
 nav .menu {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 nav .menu li {
   position: relative;
@@ -36,6 +38,7 @@ nav .menu li {
   align-items: center;
   justify-content: center;
   padding: 5px 10px;
+  max-height: 2em;
 }
 nav .menu li a {
   display: inherit;
@@ -50,6 +53,7 @@ nav .menu li:hover:not(.active) {
 }
 nav .menu .active {
   background-color: var(--palette-active-clr);
+  transition: 0.2s;
 }
 nav .menu-button-container {
   position: absolute;
