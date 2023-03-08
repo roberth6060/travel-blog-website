@@ -18,7 +18,7 @@ L.marker([latitude, longitude])
       closeOnClick: true,
     })
   )
-  .setPopupContent("Zagreb, Croatia")
+  .setPopupContent("<a href='./pages/croatia.html'>Zagreb, Croatia</a>")
   .openPopup();
 
 /**'back to top' link at the

@@ -21,10 +21,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: "Lato", sans-serif;
 }
 body {
   background-color: #f7f6f6;
+  position: relative;
 }
 hr {
   width: 80%;
@@ -50,6 +52,18 @@ figcaption {
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
 }
+footer {
+  display: flex;
+  height: 4rem;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #704e2e;
+  color: #f7f6f6;
+  font-size: 1.2rem;
+}
+
 .main-container {
   text-align: center;
 }
@@ -57,11 +71,10 @@ figcaption {
   text-align: center;
   margin: auto;
   width: 90vw;
-  /* height: 100vh; */
   height: auto;
   min-height: auto;
-  position: relative;
   margin-bottom: 40px;
+  position: relative;
 }
 .container .content {
   width: 70%;
@@ -72,20 +85,25 @@ figcaption {
 #location-section {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 /* MAP */
 .map-container {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   z-index: 1;
+  position: relative;
 }
 #map {
   position: relative;
-  height: 100%;
+  /* height: 100%; */
+  min-height: auto;
   margin: auto;
   width: 70%;
   height: 42rem;
+  min-height: auto;
+  margin-bottom: 4rem;
 }

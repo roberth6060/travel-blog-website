@@ -1,5 +1,7 @@
 .blog-container img {
-  width: 40em;
+  width: 30em;
+  height: 25em;
+  object-fit: cover;
 }
 .blog-container .title-img {
   width: 100%;
