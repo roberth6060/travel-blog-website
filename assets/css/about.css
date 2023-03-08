@@ -1,0 +1,12 @@
+.about-container .about-content {
+  text-align: start;
+  margin: auto;
+  width: 50vw;
+}
+
+.about-container img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 100%;
+}

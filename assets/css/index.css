@@ -3,6 +3,7 @@
 @import "./blog.css";
 @import "./blogs.css";
 @import "./buttons.css";
+@import "./about.css";
 
 :root {
   --header-text-clr: #704e2e;
@@ -71,6 +72,7 @@ footer {
   color: #f7f6f6;
   font-size: 1.2rem;
   bottom: 0;
+  margin-top: 2rem;
 }
 
 .main-container {
