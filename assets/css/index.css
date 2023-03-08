@@ -52,9 +52,17 @@ figcaption {
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
 }
+/* **Structure website height** */
+nav {
+  min-height: 10vh;
+}
+main {
+  min-height: 82vh;
+}
+
 footer {
   display: flex;
-  height: 4rem;
+  min-height: 8vh;
   text-align: center;
   position: relative;
   align-items: center;
@@ -62,6 +70,7 @@ footer {
   background-color: #704e2e;
   color: #f7f6f6;
   font-size: 1.2rem;
+  bottom: 0;
 }
 
 .main-container {
