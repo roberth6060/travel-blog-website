@@ -172,7 +172,7 @@ locations.map((location) => {
     )
     .setPopupContent(
       location.link !== null
-        ? `<a href=${location.link}>${location.name}</a>`
+        ? `${location.name}<hr/><a class="map-click" href=${location.link}>View Blog</a>`
         : location.name
     )
     .openPopup()

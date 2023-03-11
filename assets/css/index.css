@@ -132,3 +132,26 @@ footer {
 .leaflet-popup-content {
   color: black;
 }
+
+.map-click {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--palette-main-bg);
+  color: #f7f6f6 !important;
+  padding: 4px;
+}
+.map-click:hover {
+  background-color: var(--palette-main-btn);
+}
+
+.map-click:active {
+  top: 1px;
+}
+
+.popup-instruction {
+  color: red;
+  font-weight: bolder;
+}
