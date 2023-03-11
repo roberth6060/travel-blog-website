@@ -1,3 +1,6 @@
+/** FONT(S) **/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500|Roboto:400,700");
+
 /** LINKED CSS FILES **/
 @import "./navbar.css";
 @import "./blog.css";
@@ -24,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #f7f6f6;
@@ -37,6 +40,39 @@ h1,
 h2 {
   text-align: center;
   color: var(--header-text-clr);
+}
+
+h1 {
+  font-size: 2.325rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "EB Garamond", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin: 0 0 2rem;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  width: 40rem;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -65,7 +101,7 @@ nav {
 }
 main {
   margin: 0 !important;
-  min-height: 88vh;
+  min-height: 90vh;
 }
 
 footer {
@@ -99,6 +135,15 @@ footer {
   width: 70%;
   margin: auto;
   text-align: left;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
 }
 
 #location-section {
@@ -158,4 +203,8 @@ footer {
 .popup-instruction {
   color: var(--map-important-clr);
   font-weight: bolder;
+}
+
+.leaflet-popup-content-wrapper {
+  text-align: center !important;
 }

@@ -1,12 +1,21 @@
 .about-container .about-content {
   text-align: start;
   margin: auto;
-  width: 50vw;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
 }
 
-.about-container img {
-  width: 20rem;
-  height: 20rem;
-  object-fit: cover;
-  border-radius: 100%;
+.about-container .container {
+  width: 80vw;
+}
+
+.about-container .about-img {
+  background-image: url("../images/20191003221233_IMG_1036.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 40%;
+  min-height: 50rem;
+  height: 100%;
 }
