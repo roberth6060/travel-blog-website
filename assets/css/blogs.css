@@ -17,13 +17,9 @@
   background-color: #f5f5f5;
   border-radius: 0.4em;
   overflow: hidden;
+  min-height: 100px;
   width: 100%;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-}
-
-.blogs-container .grid-item :hover {
-  transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
 
 .blogs-container .card img {
@@ -47,6 +43,6 @@
   font-size: 1.6rem;
 }
 
-.blogs-container .btn-card:active {
+.blogs-container .btn-card:hover {
   background-color: var(--palette-active-clr);
 }
