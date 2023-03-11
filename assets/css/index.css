@@ -10,6 +10,7 @@
   --palette-main-btn: #79745c;
   --palette-active-clr: #704e2e;
   --palette-main-bg: #709176;
+  --map-important-clr: #cb2b3e;
 }
 
 /**** GLOBAL STYLING ****/
@@ -59,15 +60,18 @@ figcaption {
 }
 /* **Structure website height** */
 nav {
-  min-height: 10vh;
+  margin: 0 !important;
+  min-height: 5vh;
 }
 main {
-  min-height: 82vh;
+  margin: 0 !important;
+  min-height: 88vh;
 }
 
 footer {
+  margin: 0 !important;
   display: flex;
-  min-height: 8vh;
+  min-height: 5vh;
   text-align: center;
   position: relative;
   align-items: center;
@@ -124,9 +128,9 @@ footer {
 }
 
 #country-count {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bolder;
-  color: var(--palette-main-bg);
+  color: var(--map-important-clr);
 }
 
 .leaflet-popup-content {
@@ -144,7 +148,7 @@ footer {
   padding: 4px;
 }
 .map-click:hover {
-  background-color: var(--palette-main-btn);
+  background-color: var(--map-important-clr);
 }
 
 .map-click:active {
@@ -152,6 +156,6 @@ footer {
 }
 
 .popup-instruction {
-  color: red;
+  color: var(--map-important-clr);
   font-weight: bolder;
 }

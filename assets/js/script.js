@@ -1,7 +1,6 @@
 "use strict";
 let map;
 let mapEvent;
-let countryCount = 0;
 //Map data
 const locations = [
   {
@@ -151,7 +150,8 @@ const locations = [
 ];
 
 //Initialize map
-map = L.map("map").setView([45.7988904, 15.8869043], 5);
+map = L.map("map").setView([51.501364, -0.1418899], 5);
+
 L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -159,8 +159,21 @@ L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
 
 // Render Locations on Map
 locations.map((location) => {
-  countryCount++;
-  L.marker([location.latitude, location.longitude])
+  //create custom marker
+  const redIcon = new L.Icon({
+    iconUrl:
+      "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
+    shadowUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+  //add marker
+  L.marker([location.latitude, location.longitude], {
+    icon: redIcon,
+  })
     .addTo(map)
     .bindPopup(
       L.popup({
