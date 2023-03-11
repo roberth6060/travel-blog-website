@@ -122,3 +122,13 @@ footer {
   min-height: auto;
   margin-bottom: 4rem;
 }
+
+#country-count {
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: var(--palette-main-bg);
+}
+
+.leaflet-popup-content {
+  color: black;
+}
