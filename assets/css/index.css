@@ -118,6 +118,16 @@ footer {
   margin-top: 2rem;
 }
 
+.ref-container ul {
+  text-align: start;
+  width: 70vw;
+  margin: auto;
+
+  line-height: 2em;
+}
+.ref-container li {
+  list-style: square;
+}
 .main-container {
   text-align: center;
 }
