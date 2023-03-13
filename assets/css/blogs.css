@@ -32,6 +32,11 @@
   padding: 1.7rem 3rem;
 }
 
+.blogs-container .grid-item p {
+  max-height: 3.5rem;
+  overflow: hidden;
+}
+
 .blogs-container .btn-card {
   display: block;
   width: 100%;
