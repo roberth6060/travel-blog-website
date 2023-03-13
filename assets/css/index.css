@@ -7,6 +7,7 @@
 @import "./blogs.css";
 @import "./buttons.css";
 @import "./about.css";
+@import "./contact.css";
 
 :root {
   --header-text-clr: #704e2e;

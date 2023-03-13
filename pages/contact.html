@@ -44,7 +44,52 @@
       </ul>
     </nav>
     <main class="contact-container">
-      <div class="container"><h1>Contact Me</h1></div>
+      <div class="container">
+        <h1>Contact Me</h1>
+        <form id="contact" action="" method="post">
+          <h2>Request Information</h2>
+          <h4>Contact me today, I have a quick response time</h4>
+          <fieldset>
+            <input
+              placeholder="Full Name"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Email Address"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Phone Number"
+              type="tel"
+              tabindex="3"
+              required
+            />
+          </fieldset>
+
+          <fieldset>
+            <textarea placeholder="Message" tabindex="4" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
     </main>
     <!-- *** Footer *** -->
     <footer>&copy; Copyright 2023, Robert Haye</footer>
