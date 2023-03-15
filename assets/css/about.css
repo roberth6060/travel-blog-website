@@ -11,7 +11,8 @@
 }
 
 .about-container .about-img {
-  background-image: url("../images/robert.jpg");
+  background-image: url("../images/robert.jpg"),
+    url("./assets/images/robert.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
