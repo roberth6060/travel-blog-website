@@ -119,6 +119,13 @@ footer {
   margin-top: 2rem;
 }
 
+table,
+th {
+  margin: auto;
+  border-spacing: 1rem;
+  text-align: start;
+}
+
 .ref-container ul {
   text-align: start;
   width: 70vw;
